@@ -1,0 +1,116 @@
+@import "variables";
+@import "mixins";
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	
+}
+header{
+	min-height: 100px;
+}
+section#top-header{margin-left: auto; margin-right: auto;}
+section#top-header div#company-name{
+	background-color: #7b0040;
+	min-height: 100px;
+}
+header.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+
+/*Mosaic section:*/
+div#mosaic{min-height: 100px;}
+#mosaic div.one, #mosaic div.two, #mosaic div.three, #mosaic div.four {
+	min-height: 25px ;
+}
+div#col1 div.one{background-color: #fff;}
+div#col1 div.two{background-color: #7b0040;}
+div#col1 div.three{background-color: #fff;}
+div#col1 div.four{background-color: #fff;}
+
+div#col2 div.one{background-color: #fff;}
+div#col2 div.two{background-color: #f7eaf0;}
+div#col2 div.three{background-color: #e7c2d1;}
+div#col2 div.four{background-color: #d17b92;}
+
+div#col3 div.one{background-color: #edd4dd;}
+div#col3 div.two{background-color: #e7c2d1;}
+div#col3 div.three{background-color: #d17b92;}
+div#col3 div.four{background-color: #7b0040;}
+
+div#col4 div.one{background-color: #e7c2d1;}
+div#col4 div.two{background-color: #d17b92;}
+div#col4 div.three{background-color: #7b0040;}
+div#col4 div.four{background-color: #7b0040;}
+
+/* top-header company name:*/
+#top-header{
+		h1{ color: #f8f8f8; padding-left: 100px;}
+		@include sm-screens {
+			h1{font-size: 32px;
+				padding-left: 0;
+				text-align: center;
+			}
+		}
+		@include xs-tiny-screens {
+			h1{
+				font-size: 30px;
+				
+			}
+		}
+}
+
+
+#main {min-height: 25em;
+				 
+
+				h2{text-align: center;}
+				p{padding: 10px;}
+}
+.wrapper{width: 90%; margin-left: auto; margin-right: auto;}
+
+
+		/*footer CSS:*/
+		.fa {font-size: 1.2em;}
+		footer {
+		background-color: #191919;
+		color: #ADADAD;
+		margin-top: 3em;
+		@include xs-medium-screens {
+			text-align: center;
+		}
+		}
+		footer h5,
+		footer img {
+		margin-top: 5em;
+		font-weight: bold;
+		}
+		footer address {
+		margin-top: 4em;
+		margin-bottom: 5em;
+		color: #5A5A5A;
+		}
+		footer ul {
+		margin-bottom: 5em;
+		}
+		footer address strong {
+		color: #ADADAD;
+		display: block;
+		padding-bottom: 0.62em;
+		}
+		footer a {
+		font-weight: 300;
+		color: #5A5A5A;
+		}
+		footer a:hover {
+		text-decoration: none;
+		color: #FFF;
+		}
+	
+		/*footer CSS:*/
+		footer {
+		background-color: #191919;
+		color: #ADADAD;
+		margin-top: 3em;
+		}
