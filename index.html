@@ -146,51 +146,64 @@
 <!--Footer comes here : -->
 <footer>
 	<div class="container-fluid">
-		<div class="wrapper">
-			<div class="col-md-3 hidden-sm hidden-xs">
-				<img src="images/Logo6.png" class="img-responsive">
+		<div class="wrapper">	
+			<div class="row" id="top-footer">		
+				<div class="col-md-2 col-sm-2">
+					<h4>The Company</h4>
+					<ul class="list-unstyled">
+						<li><a href="#">Home</a></li>
+						<li><a href="about.html">About Us</a></li>
+					<!--<li><a href="projects.html">Our Projects</a></li> -->
+						<li><a href="services.html">Our Services</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2 col-sm-2">
+					<h4>Social</h4>
+					<ul class="list-unstyled">
+						<!--To share on facebook link: http://www.facebook.com/sharer.php?u= YOUR WEBSITE URL -->
+						<li><a href="http://www.facebook.com/sharer.php?u= https://S4WebsiteURL.com " class="fa fa-facebook">&nbsp;Facebook</a></li>
+						<!--To share on TWITTER link: https://twitter.com/share?ref_src= YOUR WEBSITE URL -->
+						<li><a href="https://twitter.com/share?ref_src=https://S4WebsiteURL.com" class="fa fa-twitter">&nbsp;Twitter</a></li>
+						<!--To share on LinkedIn go to :http://www.sharelinkgenerator.com/ -->
+						<li><a href="https:// GENERATE YOUR LINK" class="fa fa-linkedin">&nbsp;LinkedIn</a></li>
+						<!--To share on WhatsApp link: https://web.whatsapp.com/send?text= YOUR WEBSITE URL -->
+						<li><a href="https://web.whatsapp.com/send?text= https://S4WebsiteURL.com " class="fa fa-whatsapp">&nbsp;WhatsApp</a></li>
+					</ul>
+				</div>			
+				<div class="col-md-4 col-sm-4">
+					<h4>Security Safety Service Solution Ltd.</h4>
+					<address>						
+						183/14 Soi Post Office (13/2) Nongprue, Banglamung.<br>
+						Chonburi Pattaya 20150<br>
+						Thailand					
+						<p><span class="fa fa-phone"></span>&nbsp;Phone:<a href="callto://+66928130704" class="call" title="Click to call"> +66 928 130704</a></p>
+						<p><span class="fa fa-phone"></span>&nbsp;Phone:<a href="callto://+66626861378" class="call" title="Click to call"> +66 626 861378</a></p>					
+					</address>				
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<h4>Contact us:</h4>
+					<div style="display: none;" id="thankyou_message">
+						<h4>Thank you, your message received. Will revert back to you soon.</h4>
+					</div>
+					<form class="form" id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbx1kd3sf_IPG1luA_6LW_kiO5xW1_hmOyKI0r0z/exec">
+						
+						<div class="form-group">
+							<label for="message">Your message:</label>
+							<textarea class="form-control" name="message" rows="4" cols="10" required="required"></textarea>
+						</div>
+						<div class="form-group">
+							<label form="email"> Your Email:</label>
+							<input type="email" name="email" required="required" class="form-control">
+						</div>
+						<button class="btn btn-info btn-block">
+							<i class="fa fa-paper-plane" aria-hidden="true"></i>
+							&nbsp;Send
+						</button>
+					</form>
+				</div>
 			</div>
-			<div class="col-md-3 col-sm-4">
-				<h5>The Company</h5>
-				<ul class="list-unstyled">
-					<li><a href="#">Home</a></li>
-					<li><a href="about.html">About Us</a></li>
-				<!--<li><a href="projects.html">Our Projects</a></li> -->
-					<li><a href="services.html">Our Services</a></li>
-					<li><a href="contact.html">Contact Us</a></li>
-				</ul>
-			</div>
-			<div class="col-md-3 col-sm-4">
-				<h5>Social</h5>
-				<ul class="list-unstyled">
-					<!--To share on facebook link: http://www.facebook.com/sharer.php?u= YOUR WEBSITE URL -->
-					<li><a href="http://www.facebook.com/sharer.php?u= https://S4WebsiteURL.com " class="fa fa-facebook">&nbsp;Facebook</a></li>
-					<!--To share on TWITTER link: https://twitter.com/share?ref_src= YOUR WEBSITE URL -->
-					<li><a href="https://twitter.com/share?ref_src=https://S4WebsiteURL.com" class="fa fa-twitter">&nbsp;Twitter</a></li>
-					<!--To share on LinkedIn go to :http://www.sharelinkgenerator.com/ -->
-					<li><a href="https:// GENERATE YOUR LINK" class="fa fa-linkedin">&nbsp;LinkedIn</a></li>
-					<!--To share on WhatsApp link: https://web.whatsapp.com/send?text= YOUR WEBSITE URL -->
-					<li><a href="https://web.whatsapp.com/send?text= https://S4WebsiteURL.com " class="fa fa-whatsapp">&nbsp;WhatsApp</a></li>
-				</ul>
-			</div>
-			
-			<div class="col-md-3 col-sm-4">
-				<address>
-					<strong>Security Safety Service Solution Ltd.</strong>
-					183/14 Soi Post Office (13/2) Nongprue, Banglamung.<br>
-					Chonburi Pattaya 20150<br>
-					Thailand
-					
-					<p><span class="fa fa-phone"></span>&nbsp;Phone:<a href="callto://+66928130704" class="call" title="Click to call"> +66 928 130704</a></p>
-					<p><span class="fa fa-phone"></span>&nbsp;Phone:<a href="callto://+66626861378" class="call" title="Click to call"> +66 626 861378</a></p>
-
-					<p><span class="fa fa-envelope-o"></span>&nbsp;&nbsp;<a href="mailto:Lourhzal@s4.com" class="email" title="Click to email">&nbsp;Lourhzal@s4.com</a></p>
-					
-				</address>
-				
-			</div>
-			</div>
-			<div class="row">
+			<div class="row" id="bottom-footer">
 				<div class="col-sm-4">
 					<!--some bottom line footer notice, VAT Number, Licence number etc can go here.. -->
 				</div>
@@ -203,10 +216,7 @@
 		</div>
 	</div>
 </footer>
-
-
-
-	
-</script>
+<!-- AJAX response for footer/'contact us' form submission script: -->
+<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 </body>
 </html>

@@ -108,14 +108,15 @@ footer {
   @media only screen and (max-width: 768px) {
     footer {
       text-align: center; } }
+  footer div#top-footer {
+    padding-bottom: 5em; }
 
-footer h5,
+footer h4,
 footer img {
   margin-top: 5em;
   font-weight: bold; }
 
 footer address {
-  margin-top: 4em;
   margin-bottom: 5em;
   color: #5A5A5A; }
 

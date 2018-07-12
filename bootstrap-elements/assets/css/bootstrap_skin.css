@@ -1,3 +1,15 @@
+.btn-info {
+  color: #fff;
+  background-color: #9a0044;
+  border-color: #9a0044; 
+}
+  
+.btn-info.active.focus, .btn-info.active:focus, .btn-info.active:hover, .btn-info:active.focus, .btn-info:active:focus,.btn-info:hover, .btn-info:active:hover, .open > .dropdown-toggle.btn-info.focus, .open > .dropdown-toggle.btn-info:focus, .open > .dropdown-toggle.btn-info:hover {
+    color: #fff;
+    background-color: #d17b92;
+    border-color: #9a0044; 
+  }
+
 #nav-menu {
   padding-right: 3rem; }
 
@@ -49,5 +61,3 @@ nav .btn-default:hover {
     position: absolute;
     top: 2.6em;
     right: 4em; } }
-
-/*# sourceMappingURL=bootstrap_skin.css.map */
